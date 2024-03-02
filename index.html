@@ -16,23 +16,163 @@
              height: 200px; 
             object-fit: cover;
         }
+        video{
+            width: 400px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        table, td, th{
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        tfoot{
+            text-align: left;
+        }
+         .product{
+            background-color: gold;
+            width: 300px;
+        } 
+        .highlight{
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
-    <h1>Heading 1</h1>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <il></il>
+                <il></il>
+                <il></il>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Products</h2>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+        <section>
+            <h2>Testimonials</h2>
+            <article>
+                <section></section>
+                <section></section>
+                <section></section>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <aside></aside>
+    <footer>
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </footer>
+
+     <article class="article">
+        <h1>Heading</h1>
+        <p>Published <time datetime="2021-01-01 17:00">Januray 1 2021 05:00pm</time></p>
+        <p><mark class="highlight">Lorem</mark> ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, itaque nam quaerat, dolorum quia tempora est asperiores, explicabo beatae id nostrum! Quis id sit vitae.</p>
+        <figure>
+            <img src="" alt="">
+            <figcaption>My coffee this morning</figcaption>
+        </figure>
+    </article> 
+
+     <p><span class="highlight">lorem</span> ipsum dolor sit, amet consectetur adipisicing elit. Earum veritatis quisquam, reprehenderit quas amet expedita id ab quia ut ipsa ratione porro dolore?</p> 
+     <h1>Heading 1</h1>
     <h2>HTML</h2>
     <p>HTML Tutorial</p>
     <h3>Code</h3>
     <h3>Exercise</h3>
 
     <h2>CSS</h2>
-    <p>CSS Tutorial</p>
+    <p>CSS Tutorial</p> 
 
-    <img src="./images/coffee.png" alt="cup of coffee">
-    <!-- <p>I want to learn &lt;HTML&gt;! &copy;</p> -->
-    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo corrupti repudiandae minima! Sequi quae quasi itaque, deleniti eaque quibusdam ea maiores qui maxime&nbsp;voluptate quas facilis, alias vero! Enim voluptas dignissimos aliquid facere quod ad nulla nesciunt velit dicta quidem reiciendis aliquam, dolor ab! Laborum cupiditate exercitationem iste velit dignissimos.</p> -->
+     <div class="product">
+        <p>Hunter is cool</p>
+        <a href="https://google.com">Link</a>
+    </div>
+    <div class="product">
+        <p>Hunter is cool</p>
+        <a href="https://google.com">Link</a>
+    </div>
+
+     <table>
+        <thead>
+            <tr>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+     
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marketing</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Accounting</td>
+                <td>$200</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$300</th>
+            </tr>
+        </tfoot>
+
+</table>
+
+     <dl>
+        <dt>Title</dt>
+        <dd>The ultimate HTML and CSS Course</dd>
+        <dt>Author</dt>
+        <dd>Hunter Rozier</dd>
+        <dt>Skills</dt>
+        <dd>HTML</dd>
+        <dd>CSS</dd>
+        <dd>Responsive Design</dd>
+        <dd>Search Engine Optimization</dd>
+    </dl> 
+     <ol>
+        <li>pre heat oven</li>
+        <li>place ingredients on crust</li>
+        <li>put pizza in oven for 20 min</li>
+    </ol> 
+     <ul>
+        <li>About me</li>
+        <li>Course</li>
+            <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+        <li>Subscribe</li>
+        <li>Contact me</li>
+    </ul> 
+         <video controls src="/assets/videos/video.01.mp4">
+            your browser doesn't support videos
+        </video>
+        <br>
+     <img src="./images/coffee.png" alt="cup of coffee"> 
+     <p>I want to learn &lt;HTML&gt;! &copy;</p> 
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo corrupti repudiandae minima! Sequi quae quasi itaque, deleniti eaque quibusdam ea maiores qui maxime&nbsp;voluptate quas facilis, alias vero! Enim voluptas dignissimos aliquid facere quod ad nulla nesciunt velit dicta quidem reiciendis aliquam, dolor ab! Laborum cupiditate exercitationem iste velit dignissimos.</p> 
     <a href="./company/about.html">
-        about me <!-- <img src="./images/santa-01.PNG" alt="a link with my face"> -->
+        about me  <img src="./images/santa-01.PNG" alt="a link with my face">
     </a>
 </body>
 </html>
